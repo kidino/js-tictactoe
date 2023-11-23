@@ -4,14 +4,17 @@ Ini adalah aplikasi ringkas permainan Tic Tac Toe yang saya bangunkan dengan Jav
 
 Aplikasi ini dibangunkan untuk membantu pelajaran JavaScript.
 
-![alt Tic Tac Toe](screenshot.png)
+## Demo
 
+Demo boleh dicuba di https://js-tictactoe-1m9.pages.dev/
 
-## Tonton Video Penerangan
+## Video YouTube
 
 Saya membuat penerangan kepada pembangunan aplikasi ini di pautan YouTube berikut : 
 
 https://youtu.be/rBaf85_AvYk
+
+![alt Tic Tac Toe](screenshot.png)
 
 ## Sedikit Penerangan
 
