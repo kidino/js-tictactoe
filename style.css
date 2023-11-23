@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e0e0e0;
+    flex-direction: column;
+}
+
+#board {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+}
+
+.player {
+    border: 5px solid;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#player-1 {
+    border-color: #00f;
+    color: #00f;
+}
+
+#player-2 {
+    border-color: #f00;
+    color: #f00;
+}
+
+#player-1.turn {
+    background-color: rgb(186, 186, 251);
+}
+
+#player-2.turn {
+    background-color: rgb(251, 186, 186);
+}
+
+#boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin : 10px 0px
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.box.player-1::after {
+    content: "⚬";
+    color: #00f;
+    font-size: 80px;
+    font-weight: normal;
+    margin-top: -15px;
+}
+
+.box.player-2::after {
+    content: "✖";
+    color: #f00;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* Add hover effect */
+.box:hover {
+    background-color: #e0e0e0;
+}
+
+.box.winner {
+    background-color: rgb(255, 232, 99) !important;
+}
