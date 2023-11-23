@@ -11,6 +11,8 @@ Aplikasi ini dibangunkan untuk membantu pelajaran JavaScript.
 
 Saya membuat penerangan kepada pembangunan aplikasi ini di pautan YouTube berikut : 
 
+https://youtu.be/rBaf85_AvYk
+
 ## Sedikit Penerangan
 
 1. Tetapkan giliran kepada `player-1`
